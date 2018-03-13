@@ -33,7 +33,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/aws-api-gateway/apikeys-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/aws-api-gateway/apikeys-hzyavo9sg98nsnh65vfx81m84o2kyxvy6k1xwhd7-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/apigateway/api-reference/
