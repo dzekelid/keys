@@ -33,7 +33,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/stripe/ephemeral-keys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/stripe/ephemeral-keys-key-delete.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
