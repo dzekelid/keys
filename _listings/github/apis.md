@@ -40,7 +40,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/github/repos-owner-repo-keys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/github/repos-owner-repo-keys-keyid-delete.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
