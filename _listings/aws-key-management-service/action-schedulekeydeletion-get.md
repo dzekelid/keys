@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ScheduleKeyDeletion&k=1:
+  /?Action=ScheduleKeyDeletion:
     get:
       summary: ' Schedule Key Deletion '
       description: Schedules the deletion of a customer master key (CMK)
