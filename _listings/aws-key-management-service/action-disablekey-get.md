@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableKey&k=1:
+  /?Action=DisableKey:
     get:
       summary: ' Disable Key '
       description: |-
