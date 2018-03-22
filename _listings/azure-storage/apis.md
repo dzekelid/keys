@@ -9,9 +9,9 @@ tags:
 - Storage
 - Stack Network
 - Microsoft
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/azure-storage/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-storage/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Storage API
@@ -23,7 +23,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-listkeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-storage/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-storage-storageaccounts-accountname-listkeys-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
