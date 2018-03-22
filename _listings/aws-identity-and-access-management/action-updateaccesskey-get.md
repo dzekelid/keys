@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateAccessKey&k=1:
+  /?Action=UpdateAccessKey:
     get:
       summary: ' Update Access Key '
       description: Changes the status of the specified access key from Active to Inactive,
