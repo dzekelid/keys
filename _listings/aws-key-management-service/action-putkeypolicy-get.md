@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutKeyPolicy&k=1:
+  /?Action=PutKeyPolicy:
     get:
       summary: ' Put Key Policy '
       description: Attaches a key policy to the specified customer master key (CMK)
