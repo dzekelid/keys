@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetKeyRotationStatus&k=1:
+  /?Action=GetKeyRotationStatus:
     get:
       summary: ' Get Key Rotation Status '
       description: |-
