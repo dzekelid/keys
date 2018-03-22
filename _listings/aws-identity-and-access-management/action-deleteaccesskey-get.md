@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteAccessKey&k=1:
+  /?Action=DeleteAccessKey:
     get:
       summary: ' Delete Access Key '
       description: Deletes the access key pair associated with the specified IAM user
