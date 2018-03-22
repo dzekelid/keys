@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableKeyRotation&k=1:
+  /?Action=EnableKeyRotation:
     get:
       summary: ' Enable Key Rotation '
       description: Enables rotation of the specified customer master key
