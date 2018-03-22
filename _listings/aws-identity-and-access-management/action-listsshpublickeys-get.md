@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListSSHPublicKeys&k=1:
+  /?Action=ListSSHPublicKeys:
     get:
       summary: ' List S S H Public Keys '
       description: Returns information about the SSH public keys associated with the
