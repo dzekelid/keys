@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListKeys&k=1:
+  /?Action=ListKeys:
     get:
       summary: ' List Keys '
       description: Lists the customer master keys
