@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetAccessKeyLastUsed&k=1:
+  /?Action=GetAccessKeyLastUsed:
     get:
       summary: ' Get Access Key Last Used '
       description: Retrieves information about when the specified access key was last
