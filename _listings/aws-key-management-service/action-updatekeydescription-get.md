@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateKeyDescription&k=1:
+  /?Action=UpdateKeyDescription:
     get:
       summary: ' Update Key Description '
       description: Updates the description of a customer master key (CMK)
