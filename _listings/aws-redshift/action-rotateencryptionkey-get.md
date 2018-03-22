@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RotateEncryptionKey&k=1:
+  /?Action=RotateEncryptionKey:
     get:
       summary: ' Rotate Encryption Key '
       description: Rotates the encryption keys for a cluster
