@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ImportKeyMaterial&k=1:
+  /?Action=ImportKeyMaterial:
     get:
       summary: ' Import Key Material '
       description: |-
