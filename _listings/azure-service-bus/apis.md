@@ -13,9 +13,9 @@ tags:
 - Stack Network
 - Microsoft
 - Messaging
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/azure-service-bus/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Service Bus API
@@ -27,7 +27,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-topics-topicname-authorizationrules-authorizationrulename-regeneratekeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-authorizationrules-authorizationrulename-listkeys-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-bus/
