@@ -35,7 +35,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-api-key-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-api-key-id-get.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
