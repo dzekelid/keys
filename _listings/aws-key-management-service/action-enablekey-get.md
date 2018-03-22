@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableKey&k=1:
+  /?Action=EnableKey:
     get:
       summary: ' Enable Key '
       description: Marks a key as enabled, thereby permitting its use
