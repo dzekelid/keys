@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateAccessKey&k=1:
+  /?Action=CreateAccessKey:
     get:
       summary: ' Create Access Key '
       description: |-
