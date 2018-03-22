@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListAccessKeys&k=1:
+  /?Action=ListAccessKeys:
     get:
       summary: ' List Access Keys '
       description: Returns information about the access key IDs associated with the
