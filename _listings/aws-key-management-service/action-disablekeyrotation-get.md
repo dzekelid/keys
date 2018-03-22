@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableKeyRotation&k=1:
+  /?Action=DisableKeyRotation:
     get:
       summary: ' Disable Key Rotation '
       description: Disables rotation of the specified key
