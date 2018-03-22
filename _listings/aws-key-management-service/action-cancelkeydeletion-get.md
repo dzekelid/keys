@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelKeyDeletion&k=1:
+  /?Action=CancelKeyDeletion:
     get:
       summary: ' Cancel Key Deletion '
       description: Cancels the deletion of a customer master key (CMK)
