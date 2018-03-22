@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GenerateDataKeyWithoutPlaintext&k=1:
+  /?Action=GenerateDataKeyWithoutPlaintext:
     get:
       summary: ' Generate Data Key Without Plaintext '
       description: Returns a data encryption key encrypted under a customer master
