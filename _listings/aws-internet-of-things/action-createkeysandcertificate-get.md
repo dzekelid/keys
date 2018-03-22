@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateKeysAndCertificate&k=1:
+  /?Action=CreateKeysAndCertificate:
     get:
       summary: ' Create Keys And Certificate '
       description: Creates a 2048-bit RSA key pair and issues an X
