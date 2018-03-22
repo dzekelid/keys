@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GenerateDataKey&k=1:
+  /?Action=GenerateDataKey:
     get:
       summary: ' Generate Data Key '
       description: |-
