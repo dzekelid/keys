@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateSSHPublicKey&k=1:
+  /?Action=UpdateSSHPublicKey:
     get:
       summary: ' Update S S H Public Key '
       description: Sets the status of an IAM user's SSH public key to active or inactive
