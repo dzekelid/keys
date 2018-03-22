@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateKey&k=1:
+  /?Action=CreateKey:
     get:
       summary: ' Create Key '
       description: Creates a customer master key (CMK)
