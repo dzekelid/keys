@@ -26,7 +26,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-listkeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-readonlykeys-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
