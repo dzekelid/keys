@@ -29,7 +29,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-wcfrelays-relayname-authorizationrules-authorizationrulename-listkeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-wcfrelays-relayname-authorizationrules-authorizationrulename-regeneratekeys-post.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
