@@ -27,7 +27,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-readonlykeys-get.md
+- name: Azure DocumentDB API Database Accounts List Keys
+  description: Lists the access keys for the specified Azure DocumentDB database account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
+  humanURL: https://azure.microsoft.com/en-us/services/documentdb/
+  baseURL: http:://management.azure.com//
+  tags: Keys
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-listkeys-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-listkeys-post-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/documentdb/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/documentdb/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/documentdb/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/documentdb/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
 - type: x-pricing
