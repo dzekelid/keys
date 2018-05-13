@@ -31,7 +31,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-updatekeydescription-get.md
+- name: AWS Key Management Service API Cancel Key Deletion
+  description: Cancels the deletion of a customer master key (CMK).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
+  humanURL: https://aws.amazon.com/kms/
+  baseURL: http:://{host}//
+  tags: Keys
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-cancelkeydeletion-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/kms/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/kms/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/kms/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/kms/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/kms/pricing/
+- type: x-website
+  url: https://aws.amazon.com/kms/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/kms/index.html
 - type: x-documentation
