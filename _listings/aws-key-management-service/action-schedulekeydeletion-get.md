@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Schedule Key Deletion
   version: 1.0.0
+  description: Schedules the deletion of a customer master key (CMK).
 schemes:
 - http
 produces:
