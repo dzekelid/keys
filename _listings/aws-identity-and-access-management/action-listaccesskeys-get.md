@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API List Access Keys
   version: 1.0.0
+  description: Returns information about the access key IDs associated with the specified
+    IAM user.
 schemes:
 - http
 produces:
