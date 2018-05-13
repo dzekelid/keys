@@ -1,13 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Azure ML Web Services Management Client
-  description: These APIs allow end users to operate on Azure Machine Learning Web
-    Services resources. They support the following operations:&lt;ul&gt;&lt;li&gt;Create
-    or update a web service&lt;/li&gt;&lt;li&gt;Get a web service&lt;/li&gt;&lt;li&gt;Patch
-    a web service&lt;/li&gt;&lt;li&gt;Delete a web service&lt;/li&gt;&lt;li&gt;Get
-    All Web Services in a Resource Group &lt;/li&gt;&lt;li&gt;Get All Web Services
-    in a Subscription&lt;/li&gt;&lt;li&gt;Get Web Services Keys&lt;/li&gt;&lt;/ul&gt;
+  title: Azure Machine Learning API Web Services List Keys
+  description: Gets the access keys for the specified web service.
   version: 1.0.0
 host: management.azure.com
 basePath: /
