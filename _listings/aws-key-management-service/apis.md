@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-updatekeydescription-get.md
-- name: AWS Key Management Service API Enable Key
-  description: Marks a key as enabled, thereby permitting its use.
+- name: AWS Key Management Service API Enable Key Rotation
+  description: Enables rotation of the specified customer master key.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
   humanURL: https://aws.amazon.com/kms/
   baseURL: http:://{host}//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-enablekey-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-enablekeyrotation-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/kms/index.html
