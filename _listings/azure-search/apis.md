@@ -26,18 +26,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-deletequerykey-key-delete.md
-- name: Azure Search API Admin Keys Get
-  description: Gets the primary and secondary admin API keys for the specified Azure
-    Search service.
+- name: Azure Search API Admin Keys Regenerate
+  description: Regenerates either the primary or secondary admin API key. You can
+    only regenerate one key at a time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
   humanURL: https://azure.microsoft.com/en-us/services/search/
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-listadminkeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-regenerateadminkey-keykind-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-listadminkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-regenerateadminkey-keykind-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
