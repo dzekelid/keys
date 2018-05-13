@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Generate Data Key Without Plaintext
   version: 1.0.0
+  description: Returns a data encryption key encrypted under a customer master key
+    (CMK).
 schemes:
 - http
 produces:
