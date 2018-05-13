@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Create Key
   version: 1.0.0
+  description: Creates a customer master key (CMK).
 schemes:
 - http
 produces:
