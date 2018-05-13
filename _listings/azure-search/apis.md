@@ -26,18 +26,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-deletequerykey-key-delete.md
-- name: Azure Search API Admin Keys Regenerate
-  description: Regenerates either the primary or secondary admin API key. You can
-    only regenerate one key at a time.
+- name: Azure Search API Query Keys Create
+  description: Generates a new query key for the specified Search service. You can
+    create up to 50 query keys per service.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
   humanURL: https://azure.microsoft.com/en-us/services/search/
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-regenerateadminkey-keykind-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-createquerykey-name-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-regenerateadminkey-keykind-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-createquerykey-name-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
