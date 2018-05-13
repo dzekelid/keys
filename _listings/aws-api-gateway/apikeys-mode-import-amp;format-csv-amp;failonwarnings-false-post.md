@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS API Gateway API
+  title: AWS API Gateway API Imports One Or More API Keys
   version: 1.0.0
+  description: Imports one or more API keys.
 schemes:
 - http
 produces:
