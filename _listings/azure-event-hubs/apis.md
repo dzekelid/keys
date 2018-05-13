@@ -28,17 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Event Hubs API Event Hubs List Keys
-  description: Gets the ACS and SAS connection strings for the Event Hub.
+- name: Azure Event Hubs API Event Hubs Regenerate Keys
+  description: Regenerates the ACS and SAS connection strings for the Event Hub.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png
   humanURL: https://azure.microsoft.com/en-us/services/event-hubs/
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-authorizationrules-authorizationrulename-listkeys-post.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-authorizationrules-authorizationrulename-listkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-authorizationrules-authorizationrulename-regeneratekeys-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/event-hubs/
