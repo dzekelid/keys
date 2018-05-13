@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS API Gateway API
+  title: AWS API Gateway API Get API Key
   version: 1.0.0
+  description: Gets the ApiKey resource with the specified key identifier.
 schemes:
 - http
 produces:
