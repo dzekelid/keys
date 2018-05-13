@@ -27,17 +27,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-syncstoragekeys-post.md
-- name: Azure Media Services API Media Service List Keys
-  description: Lists the keys for a Media Service.
+- name: Azure Media Services API Media Service Sync Storage Keys
+  description: Synchronizes storage account keys for a storage account associated
+    with the Media Service account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/media-services-video-on-demand.png
   humanURL: https://azure.microsoft.com/en-us/services/media-services/
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-listkeys-post.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-listkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-media-services/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-media-mediaservices-mediaservicename-syncstoragekeys-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/media-services/
