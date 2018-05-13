@@ -26,7 +26,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-deletequerykey-key-delete.md
+- name: Azure Search API Admin Keys Get
+  description: Gets the primary and secondary admin API keys for the specified Azure
+    Search service.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
+  humanURL: https://azure.microsoft.com/en-us/services/search/
+  baseURL: http:://management.azure.com//
+  tags: Keys
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-listadminkeys-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-listadminkeys-post-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/search/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/search/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/search/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/search/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
 - type: x-pricing
