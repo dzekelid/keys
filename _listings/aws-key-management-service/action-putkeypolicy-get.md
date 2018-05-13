@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Put Key Policy
   version: 1.0.0
+  description: Attaches a key policy to the specified customer master key (CMK).
 schemes:
 - http
 produces:
