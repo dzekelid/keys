@@ -31,16 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-identity-and-access-management/action-updatesshpublickey-get.md
-- name: AWS Identity and Access Management API Get Access Key Last Used
-  description: Retrieves information about when the specified access key was last
-    used.
+- name: AWS Identity and Access Management API Get Context Keys For Custom Policy
+  description: Gets a list of all of the context keys referenced in the input policies.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
   baseURL: http:://{host}//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-identity-and-access-management/action-getaccesskeylastused-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-identity-and-access-management/action-getcontextkeysforcustompolicy-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
