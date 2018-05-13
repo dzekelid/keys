@@ -36,24 +36,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-api-key-id-put.md
-- name: SendGrid Add Api Keys
+- name: SendGrid Delete Api Keys Api Key
   description: |-
-    **This endpoint allows you to create a new random API Key for the user.**
+    **This endpoint allows you to revoke an existing API Key**
 
-    A JSON request body containing a "name" property is required. If number of maximum keys is reached, HTTP 403 will be returned.
-
-    There is a limit of 100 API Keys on your account.
+    Authentications using this API Key will fail after this request is made, with some small propogation delay.If the API Key ID does not exist an HTTP 404 will be returned.
 
     The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
 
-    See the [API Key Permissions List](https://sendgrid.com/docs/API_Reference/Web_API_v3/API_Keys/api_key_permissions_list.html) for a list of all available scopes.
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are deleting.|
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-api-key-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-api-key-id-delete-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
