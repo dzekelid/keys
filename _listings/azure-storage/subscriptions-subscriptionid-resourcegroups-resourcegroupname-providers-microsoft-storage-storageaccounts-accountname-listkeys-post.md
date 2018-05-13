@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Storage Accounts List Keys
   version: 1.0.0
+  description: Lists the access keys for the specified storage account.
 host: management.azure.com
 basePath: /
 schemes:
