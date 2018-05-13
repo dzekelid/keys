@@ -31,17 +31,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-updatekeydescription-get.md
-- name: AWS Key Management Service API Generate Data Key
-  description: |-
-    Returns a data encryption key that you can use in your application to encrypt
-          data locally.
+- name: AWS Key Management Service API Generate Data Key Without Plaintext
+  description: Returns a data encryption key encrypted under a customer master key
+    (CMK).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
   humanURL: https://aws.amazon.com/kms/
   baseURL: http:://{host}//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-generatedatakey-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-generatedatakeywithoutplaintext-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/kms/index.html
