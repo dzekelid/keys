@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Delete Imported Key Material
   version: 1.0.0
+  description: |-
+    Deletes key material that you previously imported and makes the specified customer
+          master key (CMK) unusable.
 schemes:
 - http
 produces:
