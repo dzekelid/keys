@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SearchManagementClient
-  description: Client that can be used to manage Azure Search services and API keys.
+  title: Azure Search API Admin Keys Regenerate
+  description: Regenerates either the primary or secondary admin API key. You can
+    only regenerate one key at a time.
   version: 1.0.0
 host: management.azure.com
 basePath: /
