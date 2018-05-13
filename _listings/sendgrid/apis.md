@@ -36,20 +36,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-api-key-id-put.md
-- name: SendGrid Get Api Keys
+- name: SendGrid Add Api Keys
   description: |-
-    **This endpoint allows you to retrieve all API Keys that belong to the authenticated user.**
+    **This endpoint allows you to create a new random API Key for the user.**
+
+    A JSON request body containing a "name" property is required. If number of maximum keys is reached, HTTP 403 will be returned.
+
+    There is a limit of 100 API Keys on your account.
 
     The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    See the [API Key Permissions List](https://sendgrid.com/docs/API_Reference/Web_API_v3/API_Keys/api_key_permissions_list.html) for a list of all available scopes.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-post.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
