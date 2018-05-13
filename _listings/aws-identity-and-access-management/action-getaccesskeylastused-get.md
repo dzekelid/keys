@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Get Access Key Last Used
   version: 1.0.0
+  description: Retrieves information about when the specified access key was last
+    used.
 schemes:
 - http
 produces:
