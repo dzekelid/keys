@@ -30,7 +30,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-iothubkeys-keyname-listkeys-post.md
+- name: Azure IoT Hub API Iot Hub Resource List Keys
+  description: 'Get the security metadata for an IoT hub. For more information, see:
+    https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-iot-01-establish.png
+  humanURL: https://azure.microsoft.com/en-us/services/iot-hub/
+  baseURL: http:://management.azure.com//
+  tags: Keys
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-listkeys-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-iot-hub/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devices-iothubs-resourcename-listkeys-post-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/iot-hub/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/iot-hub/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/iot-hub/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/iot-hub/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/iot-hub/
 - type: x-pricing
