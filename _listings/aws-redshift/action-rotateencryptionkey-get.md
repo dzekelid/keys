@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Rotate Encryption Key
   version: 1.0.0
+  description: Rotates the encryption keys for a cluster.
 schemes:
 - http
 produces:
