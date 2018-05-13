@@ -41,20 +41,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/github/users-username-keys-get.md
-- name: Github Get User Keys
-  description: |-
-    List your public keys.
-    Lists the current user's keys. Management of public keys via the API requires
-    that you are authenticated through basic auth, or OAuth with the 'user', 'write:public_key' scopes.
+- name: Github Add User Keys
+  description: Create a public key.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/github/user-keys-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/github/user-keys-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/github/user-keys-post.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
