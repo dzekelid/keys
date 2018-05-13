@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: SearchManagementClient
-  description: Client that can be used to manage Azure Search services and API keys.
+  title: Azure Search API Query Keys List By Search Service
+  description: Returns the list of query API keys for the given Azure Search service.
   version: 1.0.0
 host: management.azure.com
 basePath: /
