@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Event Hubs Regenerate Keys
+  description: Regenerates the ACS and SAS connection strings for the Event Hub.
   version: 1.0.0
 host: management.azure.com
 basePath: /
