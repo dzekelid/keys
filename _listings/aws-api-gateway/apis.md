@@ -34,15 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-api-gateway/apikeys-hzyavo9sg98nsnh65vfx81m84o2kyxvy6k1xwhd7-patch.md
-- name: AWS API Gateway API Imports One Or More API Keys
-  description: Imports one or more API keys.
+- name: AWS API Gateway API Apikey Update
+  description: Changes an API key properties, including the description, enabled,
+    and name properties.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
   humanURL: https://aws.amazon.com/api-gateway/
   baseURL: http:://{host}//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-api-gateway/apikeys-mode-import-amp;format-csv-amp;failonwarnings-false-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-api-gateway/apikeys-hzyavo9sg98nsnh65vfx81m84o2kyxvy6k1xwhd7-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/apigateway/api-reference/
