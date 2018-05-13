@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Cancel Key Deletion
   version: 1.0.0
+  description: Cancels the deletion of a customer master key (CMK).
 schemes:
 - http
 produces:
