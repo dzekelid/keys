@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: RedisManagementClient
-  description: REST API for Azure Redis Cache Service.
+  title: Azure Redis Cache API Redis List Keys
+  description: Retrieve a Redis cache's access keys. This operation requires write
+    permission to the cache resource.
   version: 1.0.0
 host: management.azure.com
 basePath: /
