@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/ephemeral-keys-key-delete.md
-- name: Stripe Add Ephemeral Keys
-  description: Creates a short-lived API key for a given resource.
+- name: Stripe Delete Ephemeral Keys Key
+  description: Invalidates a short-lived API key for a given resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/ephemeral-keys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/ephemeral-keys-key-delete.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
