@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Update S S H Public Key
   version: 1.0.0
+  description: Sets the status of an IAM user's SSH public key to active or inactive.
 schemes:
 - http
 produces:
