@@ -26,16 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-notificationhubs-notificationhubname-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Notification Hubs API Namespaces Regenerate Keys
-  description: Regenerates the Primary/Secondary Keys to the Namespace Authorization
-    Rule
+- name: Azure Notification Hubs API Notification Hubs List Keys
+  description: Gets the Primary and Secondary ConnectionStrings to the NotificationHub
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-notification-hubs.png
   humanURL: https://docs.microsoft.com/en-us/azure/notification-hubs/
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-authorizationrules-authorizationrulename-regeneratekeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-notificationhubs-notificationhubname-authorizationrules-authorizationrulename-listkeys-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-notification-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-notificationhubs-namespaces-namespacename-notificationhubs-notificationhubname-authorizationrules-authorizationrulename-listkeys-post-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/rest/api/notificationhubs
