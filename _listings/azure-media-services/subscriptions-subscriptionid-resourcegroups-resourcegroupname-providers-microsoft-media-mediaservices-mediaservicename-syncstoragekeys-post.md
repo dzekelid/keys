@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: MediaServicesManagementClient
-  description: Media Services resource management APIs.
+  title: Azure Media Services API Media Service Sync Storage Keys
+  description: Synchronizes storage account keys for a storage account associated
+    with the Media Service account.
   version: 1.0.0
 host: management.azure.com
 basePath: /
