@@ -26,17 +26,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-deletequerykey-key-delete.md
-- name: Azure Search API Query Keys List By Search Service
-  description: Returns the list of query API keys for the given Azure Search service.
+- name: Azure Search API Query Keys Delete
+  description: Deletes the specified query key. Unlike admin keys, query keys are
+    not regenerated. The process for regenerating a query key is to delete and then
+    recreate it.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-search.png
   humanURL: https://azure.microsoft.com/en-us/services/search/
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-listquerykeys-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-deletequerykey-key-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-listquerykeys-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-search/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-search-searchservices-searchservicename-deletequerykey-key-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/search/
