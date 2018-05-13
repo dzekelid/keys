@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Delete Access Key
   version: 1.0.0
+  description: Deletes the access key pair associated with the specified IAM user.
 schemes:
 - http
 produces:
