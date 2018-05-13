@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API List Public Keys
   version: 1.0.0
+  description: Returns all public keys whose private keys were used to sign the digest
+    files within the specified time range.
 schemes:
 - http
 produces:
