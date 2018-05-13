@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Enable Key
   version: 1.0.0
+  description: Marks a key as enabled, thereby permitting its use.
 schemes:
 - http
 produces:
