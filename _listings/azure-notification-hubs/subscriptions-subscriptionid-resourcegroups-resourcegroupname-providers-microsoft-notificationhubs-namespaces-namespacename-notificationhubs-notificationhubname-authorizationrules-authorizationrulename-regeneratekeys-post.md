@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: NotificationHubsManagementClient
-  description: Azure NotificationHub client
+  title: Azure Notification Hubs API Notification Hubs Regenerate Keys
+  description: Regenerates the Primary/Secondary Keys to the NotificationHub Authorization
+    Rule
   version: 1.0.0
 host: management.azure.com
 basePath: /
