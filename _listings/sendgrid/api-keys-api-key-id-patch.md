@@ -1,11 +1,19 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Patch Api Keys Api Key
+  description: |-
+    **This endpoint allows you to update the name of an existing API Key.**
+
+    A JSON request body with a "name" property is required.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are updating.|
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
