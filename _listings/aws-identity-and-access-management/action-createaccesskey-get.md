@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Create Access Key
   version: 1.0.0
+  description: |-
+    Creates a new AWS secret access key and corresponding AWS access key ID for the
+          specified user.
 schemes:
 - http
 produces:
