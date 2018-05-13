@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Import Key Material
   version: 1.0.0
+  description: |-
+    Imports key material into an AWS KMS customer master key (CMK) from your existing key
+          management infrastructure.
 schemes:
 - http
 produces:
