@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Disable Key
   version: 1.0.0
+  description: |-
+    Sets the state of a customer master key (CMK) to disabled, thereby preventing its use
+          for cryptographic operations.
 schemes:
 - http
 produces:
