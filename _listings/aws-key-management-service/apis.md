@@ -31,16 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-updatekeydescription-get.md
-- name: AWS Key Management Service API Generate Data Key Without Plaintext
-  description: Returns a data encryption key encrypted under a customer master key
-    (CMK).
+- name: AWS Key Management Service API Get Key Rotation Status
+  description: |-
+    Retrieves a Boolean value that indicates whether key rotation is enabled for the
+          specified key.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
   humanURL: https://aws.amazon.com/kms/
   baseURL: http:://{host}//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-generatedatakeywithoutplaintext-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/action-getkeyrotationstatus-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/kms/index.html
