@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DocumentDB
-  description: Azure DocumentDB Database Service Resource Provider REST API
+  title: Azure DocumentDB API Database Accounts List Read Only Keys
+  description: Lists the read-only access keys for the specified Azure DocumentDB
+    database account.
   version: 1.0.0
 host: management.azure.com
 basePath: /
