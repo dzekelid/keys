@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS API Gateway API
+  title: AWS API Gateway API Apikey Update
   version: 1.0.0
+  description: Changes an API key properties, including the description, enabled,
+    and name properties.
 schemes:
 - http
 produces:
