@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Get Key Rotation Status
   version: 1.0.0
+  description: |-
+    Retrieves a Boolean value that indicates whether key rotation is enabled for the
+          specified key.
 schemes:
 - http
 produces:
