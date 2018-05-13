@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Internet of Things API
+  title: AWS Internet of Things API Create Keys And Certificate
   version: 1.0.0
+  description: Creates a 2048-bit RSA key pair and issues an X.
 schemes:
 - http
 produces:
