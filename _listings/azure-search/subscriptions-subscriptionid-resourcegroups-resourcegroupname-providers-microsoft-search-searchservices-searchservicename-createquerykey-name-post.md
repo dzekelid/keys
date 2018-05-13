@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: SearchManagementClient
-  description: Client that can be used to manage Azure Search services and API keys.
+  title: Azure Search API Query Keys Create
+  description: Generates a new query key for the specified Search service. You can
+    create up to 50 query keys per service.
   version: 1.0.0
 host: management.azure.com
 basePath: /
