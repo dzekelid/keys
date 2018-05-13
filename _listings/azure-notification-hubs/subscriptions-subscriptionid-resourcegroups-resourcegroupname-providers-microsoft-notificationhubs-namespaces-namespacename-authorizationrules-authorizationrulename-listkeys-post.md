@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: NotificationHubsManagementClient
-  description: Azure NotificationHub client
+  title: Azure Notification Hubs API Namespaces List Keys
+  description: Gets the Primary and Secondary ConnectionStrings to the namespace
   version: 1.0.0
 host: management.azure.com
 basePath: /
