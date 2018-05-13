@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API List S S H Public Keys
   version: 1.0.0
+  description: Returns information about the SSH public keys associated with the specified
+    IAM user.
 schemes:
 - http
 produces:
