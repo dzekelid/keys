@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: SearchManagementClient
-  description: Client that can be used to manage Azure Search services and API keys.
+  title: Azure Search API Query Keys Delete
+  description: Deletes the specified query key. Unlike admin keys, query keys are
+    not regenerated. The process for regenerating a query key is to delete and then
+    recreate it.
   version: 1.0.0
 host: management.azure.com
 basePath: /
