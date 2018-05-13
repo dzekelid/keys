@@ -30,15 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-wcfrelays-relayname-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Relay API Namespaces Regenerate Keys
-  description: Regenerates the Primary or Secondary ConnectionStrings to the namespace
+- name: Azure Relay API Hybrid Connections List Keys
+  description: Primary and Secondary ConnectionStrings to the HybridConnection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-relay-bus.png
   humanURL: ""
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-authorizationrules-authorizationrulename-regeneratekeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-authorizationrules-authorizationrulename-listkeys-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-relay/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-relay-namespaces-namespacename-hybridconnections-hybridconnectionname-authorizationrules-authorizationrulename-listkeys-post-postman.md
 x-common:
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
