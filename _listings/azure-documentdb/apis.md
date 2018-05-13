@@ -27,17 +27,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-readonlykeys-get.md
-- name: Azure DocumentDB API Database Accounts List Keys
-  description: Lists the access keys for the specified Azure DocumentDB database account.
+- name: Azure DocumentDB API Database Accounts List Read Only Keys
+  description: Lists the read-only access keys for the specified Azure DocumentDB
+    database account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
   humanURL: https://azure.microsoft.com/en-us/services/documentdb/
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-listkeys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-readonlykeys-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-listkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-documentdb-databaseaccounts-accountname-readonlykeys-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
