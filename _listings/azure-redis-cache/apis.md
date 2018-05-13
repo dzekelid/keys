@@ -24,7 +24,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-listkeys-post.md
+- name: Azure Redis Cache API Redis List Keys
+  description: Retrieve a Redis cache's access keys. This operation requires write
+    permission to the cache resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png
+  humanURL: https://azure.microsoft.com/en-us/services/cache/
+  baseURL: http:://management.azure.com//
+  tags: Keys
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-listkeys-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-redis-cache/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-cache-redis-name-listkeys-post-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/redis-cache/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/cache/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/cache/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/cache/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/redis-cache/
 - type: x-pricing
