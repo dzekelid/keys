@@ -28,17 +28,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-topics-topicname-authorizationrules-authorizationrulename-regeneratekeys-post.md
-- name: Azure Service Bus API Queues List Keys
-  description: Primary and secondary connection strings to the queue.
+- name: Azure Service Bus API Queues Regenerate Keys
+  description: Regenerates the primary or secondary connection strings to the queue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png
   humanURL: https://azure.microsoft.com/en-us/services/service-bus/
   baseURL: http:://management.azure.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-queues-queuename-authorizationrules-authorizationrulename-listkeys-post.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-queues-queuename-authorizationrules-authorizationrulename-listkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-queues-queuename-authorizationrules-authorizationrulename-regeneratekeys-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-bus/
