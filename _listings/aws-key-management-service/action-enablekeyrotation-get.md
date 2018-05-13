@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Enable Key Rotation
   version: 1.0.0
+  description: Enables rotation of the specified customer master key.
 schemes:
 - http
 produces:
