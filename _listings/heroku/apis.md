@@ -39,15 +39,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/heroku/user-keys-key-delete.md
-- name: Heroku Add User Keys
-  description: Associate an SSH key with this account.
+- name: Heroku Parameters User Keys Key
+  description: Parameters user keys key.
   image: https://avatars3.githubusercontent.com/u/23211?v=4
   humanURL: https://www.heroku.com/
   baseURL: https://api.heroku.com//
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/heroku/user-keys-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/heroku/user-keys-key-parameters.md
 x-common:
 - type: x-base
   url: https://api.heroku.com
