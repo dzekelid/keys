@@ -31,8 +31,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-identity-and-access-management/action-updatesshpublickey-get.md
-- name: AWS Identity and Access Management API List Access Keys
-  description: Returns information about the access key IDs associated with the specified
+- name: AWS Identity and Access Management API List S S H Public Keys
+  description: Returns information about the SSH public keys associated with the specified
     IAM user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
   humanURL: https://aws.amazon.com/iam/
@@ -40,7 +40,7 @@ apis:
   tags: Keys
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-identity-and-access-management/action-listaccesskeys-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-identity-and-access-management/action-listsshpublickeys-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
