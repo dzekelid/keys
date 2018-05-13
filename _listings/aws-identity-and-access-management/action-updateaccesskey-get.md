@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Update Access Key
   version: 1.0.0
+  description: Changes the status of the specified access key from Active to Inactive,
+    or vice versa.
 schemes:
 - http
 produces:
