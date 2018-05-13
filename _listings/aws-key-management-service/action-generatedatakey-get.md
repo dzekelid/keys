@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Generate Data Key
   version: 1.0.0
+  description: |-
+    Returns a data encryption key that you can use in your application to encrypt
+          data locally.
 schemes:
 - http
 produces:
