@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Key Management Service API
+  title: AWS Key Management Service API Describe Key
   version: 1.0.0
+  description: Provides detailed information about the specified customer master key.
 schemes:
 - http
 produces:
