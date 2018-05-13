@@ -28,7 +28,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-topics-topicname-authorizationrules-authorizationrulename-regeneratekeys-post.md
+- name: Azure Service Bus API Namespaces List Keys
+  description: Gets the primary and secondary connection strings for the namespace.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png
+  humanURL: https://azure.microsoft.com/en-us/services/service-bus/
+  baseURL: http:://management.azure.com//
+  tags: Keys
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-authorizationrules-authorizationrulename-listkeys-post.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-service-bus/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-servicebus-namespaces-namespacename-authorizationrules-authorizationrulename-listkeys-post-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/service-bus/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/service-bus/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/service-bus/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/service-bus/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-bus/
 - type: x-pricing
