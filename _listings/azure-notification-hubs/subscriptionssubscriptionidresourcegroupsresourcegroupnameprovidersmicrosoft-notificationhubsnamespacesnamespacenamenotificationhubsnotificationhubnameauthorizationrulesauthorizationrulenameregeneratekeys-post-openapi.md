@@ -1,0 +1,146 @@
+---
+swagger: "2.0"
+x-collection-name: Azure Notification Hubs
+x-complete: 0
+info:
+  title: Azure Notification Hubs API Notification Hubs Regenerate Keys
+  description: Regenerates the Primary/Secondary Keys to the NotificationHub Authorization
+    Rule
+  version: 1.0.0
+host: management.azure.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}/listKeys
+  : post:
+      summary: Namespaces List Keys
+      description: Gets the Primary and Secondary ConnectionStrings to the namespace
+      operationId: Namespaces_ListKeys
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-notificationhubsnamespacesnamespacenameauthorizationrulesauthorizationrulenamelistkeys-post
+      parameters:
+      - in: path
+        name: authorizationRuleName
+        description: The connection string of the namespace for the specified authorizationRule
+      - in: path
+        name: namespaceName
+        description: The namespace name
+      - in: query
+        name: No Name
+      - in: path
+        name: resourceGroupName
+        description: The name of the resource group
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces Keys
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/AuthorizationRules/{authorizationRuleName}/regenerateKeys
+  : post:
+      summary: Namespaces Regenerate Keys
+      description: Regenerates the Primary/Secondary Keys to the Namespace Authorization
+        Rule
+      operationId: Namespaces_RegenerateKeys
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-notificationhubsnamespacesnamespacenameauthorizationrulesauthorizationrulenameregeneratekeys-post
+      parameters:
+      - in: path
+        name: authorizationRuleName
+        description: The connection string of the namespace for the specified authorizationRule
+      - in: path
+        name: namespaceName
+        description: The namespace name
+      - in: query
+        name: No Name
+      - in: body
+        name: parameters
+        description: Parameters supplied to regenerate the Namespace Authorization
+          Rule Key
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: resourceGroupName
+        description: The name of the resource group
+      responses:
+        200:
+          description: OK
+      tags:
+      - Namespaces Regenerate Keys
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/notificationHubs/{notificationHubName}/AuthorizationRules/{authorizationRuleName}/listKeys
+  : post:
+      summary: Notification Hubs List Keys
+      description: Gets the Primary and Secondary ConnectionStrings to the NotificationHub
+      operationId: NotificationHubs_ListKeys
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-notificationhubsnamespacesnamespacenamenotificationhubsnotificationhubnameauthorizationrulesauthorizationrulenamelistkeys-post
+      parameters:
+      - in: path
+        name: authorizationRuleName
+        description: The connection string of the NotificationHub for the specified
+          authorizationRule
+      - in: path
+        name: namespaceName
+        description: The namespace name
+      - in: query
+        name: No Name
+      - in: path
+        name: notificationHubName
+        description: The notification hub name
+      - in: path
+        name: resourceGroupName
+        description: The name of the resource group
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notification Hubs Keys
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.NotificationHubs/namespaces/{namespaceName}/notificationHubs/{notificationHubName}/AuthorizationRules/{authorizationRuleName}/regenerateKeys
+  : post:
+      summary: Notification Hubs Regenerate Keys
+      description: Regenerates the Primary/Secondary Keys to the NotificationHub Authorization
+        Rule
+      operationId: NotificationHubs_RegenerateKeys
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-notificationhubsnamespacesnamespacenamenotificationhubsnotificationhubnameauthorizationrulesauthorizationrulenameregeneratekeys-post
+      parameters:
+      - in: path
+        name: authorizationRuleName
+        description: The connection string of the NotificationHub for the specified
+          authorizationRule
+      - in: path
+        name: namespaceName
+        description: The namespace name
+      - in: query
+        name: No Name
+      - in: path
+        name: notificationHubName
+        description: The notification hub name
+      - in: body
+        name: parameters
+        description: Parameters supplied to regenerate the NotificationHub Authorization
+          Rule Key
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: resourceGroupName
+        description: The name of the resource group
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notification Hubs Regenerate Keys
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
