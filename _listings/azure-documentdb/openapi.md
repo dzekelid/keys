@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure DocumentDB
 x-complete: 1
@@ -53,4 +52,26 @@ paths:
       - Read
       - Only
       - Keys
----
+  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/regenerateKey
+  : post:
+      summary: Database Accounts Regenerate Key
+      description: Regenerates an access key for the specified Azure DocumentDB database
+        account.
+      operationId: DatabaseAccounts_RegenerateKey
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post
+      parameters:
+      - in: body
+        name: keyToRegenerate
+        description: The name of the key to regenerate
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Database
+      - Accounts
+      - Regenerate
+      - Key

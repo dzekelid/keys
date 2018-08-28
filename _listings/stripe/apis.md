@@ -9,42 +9,64 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Keys
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stripe Add Ephemeral Keys
-  x-api-slug: stripe
+- name: Stripe - Add Ephemeral Keys
+  x-api-slug: ephemeral-keys-post
   description: Creates a short-lived API key for a given resource.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///ephemeral_keys
-  tags: Ephemeral, Keys
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/ephemeral-keys-post-openapi.md
-- name: Stripe Delete Ephemeral Keys Key
-  x-api-slug: stripe
+- name: Stripe - Delete Ephemeral Keys Key
+  x-api-slug: ephemeral-keyskey-delete
   description: Invalidates a short-lived API key for a given resource.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
-  baseURL: https://api.stripe.com/v1///ephemeral_keys/{key}
-  tags: Ephemeral, Keys, Key
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/ephemeral-keyskey-delete-openapi.md
-- name: Stripe
-  x-api-slug: stripe
-  description: Web and mobile payments, built for developers.
+- name: Stripe - Delete Ephemeral Keys Key
+  x-api-slug: ephemeral-keyskey-delete
+  description: Invalidates a short-lived API key for a given resource.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
-  tags: Keys
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/ephemeral-keyskey-delete-openapi.md
+- name: Stripe - Delete Ephemeral Keys Key
+  x-api-slug: ephemeral-keyskey-delete
+  description: Invalidates a short-lived API key for a given resource.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/ephemeral-keyskey-delete-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stride.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stripe.stack.network
 - type: x-base
   url: https://api.stripe.com/
 - type: x-blog

@@ -1,0 +1,1059 @@
+{
+	"name": "Streadata.io API Gallery - Keys",
+	"description": "This is a repository of keys APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/keys.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://keys.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Urban Airship",
+			"x-api-slug": "urban-airship",
+			"description": "A market-leading mobile app engagement, mobile analytics, mobile data integration and mobile wallet marketing solution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg",
+			"humanURL": "http://urbanairship.com/",
+			"baseURL": "https://go.urbanairship.com//api/",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/urban-airship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Context.IO",
+			"x-api-slug": "context-io",
+			"description": "Create simple email webhooks and code against a free, RESTful, IMAP API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg",
+			"humanURL": "http://context.io/",
+			"baseURL": "https://api.context.io//2.0/",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/context-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Heroku",
+			"x-api-slug": "heroku",
+			"description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg",
+			"humanURL": "http://heroku.com",
+			"baseURL": "https://api.heroku.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/heroku/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LinkedIn",
+			"x-api-slug": "linkedin",
+			"description": "DZone Software provides tools and processes to help customers accelerate productivity through agile learning and knowledge-centered collaboration.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg",
+			"humanURL": "http://linkedin.com",
+			"baseURL": "https://api.linkedin.com//v1",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/linkedin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MasterCard",
+			"x-api-slug": "mastercard",
+			"description": "Mastercard is a leading global payments & technology company that connects consumers, businesses, merchants, issuers & governments around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg",
+			"humanURL": "https://developer.mastercard.com/",
+			"baseURL": "https://eas5stl0.mastercard.int:13046//z0/core/v1",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/mastercard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoToMeeting",
+			"x-api-slug": "gotomeeting",
+			"description": "Citrix enables business mobility through the secure delivery of apps and data to any device on any network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg",
+			"humanURL": "https://citrixonline.com",
+			"baseURL": "https://api.citrixonline.com//identity/v1",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/gotomeeting/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weather Underground",
+			"x-api-slug": "weather-underground",
+			"description": "Weather Underground provides local & long range weather forecasts, weather reports, maps & tropical weather conditions for locations worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg",
+			"humanURL": "http://www.wunderground.com",
+			"baseURL": "https://api.wunderground.com//api/",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/weather-underground/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DigitalOcean",
+			"x-api-slug": "digitalocean",
+			"description": "DigitalOcean is a simple and fast cloud hosting service built for developers. Customers can create a cloud server in 55 seconds, and pricing plans start at only $5 per month for 512MB of RAM, 20GB SSD, 1 CPU, and 1TB Transfer. Featuring a 99.99% Uptime SLA, DigitalOcean has servers located in New York, San Francisco, and Amsterdam. The DigitalOcean control panel interface is simple and intuitive, which power users can replicate on a larger scale with the company&rsquo;s API. DigitalOcean uses KVM virtualization and additionally hosts a library of helpful walkthroughs and tutorials that cover server configuration and optimization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DO_Logo_Horizontal_Black-3500c326.png",
+			"humanURL": "https://www.digitalocean.com",
+			"baseURL": "https://example.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/digitalocean/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tyk",
+			"x-api-slug": "tyk",
+			"description": "Tyk - Open Source API Gateway, API Management Platform, Developer Portal and Analytics - Tyk",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11408-tyk.jpg",
+			"humanURL": "http://www.tyk.io",
+			"baseURL": "https://{baseURL}//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/tyk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitbucket",
+			"x-api-slug": "bitbucket",
+			"description": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg",
+			"humanURL": "http://bitbucket.org",
+			"baseURL": "https://api.bitbucket.org//2.0",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/bitbucket/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"x-api-slug": "hewlett-packard-enterprise-hpe",
+			"description": "We help customers use technology to slash the time it takes to turn ideas into value. In turn, they transform industries, markets and lives. Some of our customers run traditional IT environments. Most are transitioning to a secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination of both. Wherever they are in that journey, we provide the technology and solutions to help them succeed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png",
+			"humanURL": "http://HPE.com",
+			"baseURL": "https://deic02-hpe.hpeonesphere.com//rest",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/hewlett-packard-enterprise-hpe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VMWare",
+			"x-api-slug": "vmware",
+			"description": "At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png",
+			"humanURL": "http://vmware.com",
+			"baseURL": "https://example.com//suite-api/api",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/vmware/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LaunchDarkly",
+			"x-api-slug": "launchdarkly",
+			"description": "Our vision is to eliminate risk for developers and operations teams from the software development cycle. As companies transition to a world built on software, there is an increasing requirement to move quickly&mdash;but that often comes with the desire to maintain control. LaunchDarkly is the feature management platform that enables dev and ops teams to control the whole feature lifecycle, from concept to launch to value. Feature flagging is an industry best practice of wrapping a new or risky section of code or infrastructure change with a flag. Each flag can easily be turned on/off independent of code deployment (aka &rdquo;dark launching&rdquo;). Equipping businesses with the ability to move at the speed of every deploy allows an entire company to learn rapidly, deliver value to their customers faster, and produce more value. Developers can build, marketing can launch, product can iterate, and sales can sell.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg",
+			"humanURL": "http://www.launchdarkly.com",
+			"baseURL": "https://app.launchdarkly.com//api/v2",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/launchdarkly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New Relic",
+			"x-api-slug": "new-relic",
+			"description": "New Relic???s digital intelligence platform lets developers, ops, and tech teams measure and monitor the performance of their applications and infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg",
+			"humanURL": "https://newrelic.com/",
+			"baseURL": "https:///v2/",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/new-relic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Lightsale",
+			"x-api-slug": "aws-lightsale",
+			"description": "Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price. You manage those Lightsail servers through the Lightsail console or by using the API or command-line interface (CLI).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png",
+			"humanURL": "https://amazonlightsail.com/",
+			"baseURL": ":///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-lightsale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS ElastiCache",
+			"x-api-slug": "aws-elasticache",
+			"description": "Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory data store or cache in the cloud. The service improves the performance of web applications by allowing you to retrieve information from fast, managed, in-memory data stores, instead of relying entirely on slower disk-based databases. Amazon ElastiCache automatically detects and replaces failed nodes, reducing the overhead associated with self-managed infrastructures and provides a resilient system that mitigates the risk of overloaded databases, which slow website and application load times. Through integration with Amazon CloudWatch, Amazon ElastiCache provides enhanced visibility into key performance metrics associated with your Redis or Memcached nodes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png",
+			"humanURL": "https://aws.amazon.com/elasticache/",
+			"baseURL": ":///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-elasticache/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"x-api-slug": "aws-identity-and-access-management",
+			"description": "AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.IAM is a feature of your AWS account offered at no additional charge. You will be charged only for use of other AWS services by your users.To get started using IAM, orif you have already registered with AWS, go to theAWS Management Consoleand get started with theseIAM Best Practices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png",
+			"humanURL": "https://aws.amazon.com/iam/",
+			"baseURL": ":///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-identity-and-access-management/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Key Management Service",
+			"x-api-slug": "aws-key-management-service",
+			"description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys. AWS Key Management Service is integrated with several other AWS services to help you protect the data you store with these services. AWS Key Management Service is also integrated with AWS CloudTrail to provide you with logs of all key usage to help meet your regulatory and compliance needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg",
+			"humanURL": "https://aws.amazon.com/kms/",
+			"baseURL": ":///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS API Gateway",
+			"x-api-slug": "aws-api-gateway",
+			"description": "Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. With a few clicks in the AWS Management Console, you can create an API that acts as a front door for applications to access data, business logic, or functionality from your back-end services, such as workloads running on Amazon Elastic Compute Cloud, code running on AWS Lambda, or any Web application. Amazon API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization and access control, monitoring, and API version management. Amazon API Gateway has no minimum fees or startup costs. You pay only for the API calls you receive and the amount of data transferred out.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png",
+			"humanURL": "https://aws.amazon.com/api-gateway/",
+			"baseURL": ":///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-api-gateway/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Internet of Things",
+			"x-api-slug": "aws-internet-of-things",
+			"description": "AWS IoT is a managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices. AWS IoT can support billions of devices and trillions of messages, and can process and route those messages to AWS endpoints and to other devices reliably and securely. With AWS IoT, your applications can keep track of and communicate with all your devices, all the time, even when they aren&rsquo;t connected.AWS IoT makes it easy to use AWS services like AWS Lambda, Amazon Kinesis, Amazon S3, Amazon Machine Learning, Amazon DynamoDB, Amazon CloudWatch, AWS CloudTrail, and Amazon Elasticsearch Service with built-in Kibana integration, to build IoT applications that gather, process, analyze and act on data generated by connected devices, without having to manage any infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Internet-Of-Things_AWSIoT.png",
+			"humanURL": "https://aws.amazon.com/iot-platform/",
+			"baseURL": ":///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-internet-of-things/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"x-api-slug": "google-apps-admin-sdk",
+			"description": "Administer domain resources, create reports, and manage subscriptions. Use the Directory API to create and manage users and groups for a domain, along with their aliases. Programmatically access the functionality found at the Admin console Organization and users tab. Use the Reports API to gain insights on content management with Google Drive activity reports. Audit administrator actions. Generate customer and user usage reports.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png",
+			"humanURL": "https://developers.google.com/admin-sdk/",
+			"baseURL": "https:///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/google-apps-admin-sdk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Key Management Service",
+			"x-api-slug": "google-cloud-key-management-service",
+			"description": "Cloud KMS is a cloud-hosted key management service that lets you manage encryption for your cloud services the same way you do on-premises. You can generate, use, rotate and destroy AES256 encryption keys. Cloud KMS is integrated with IAM and Cloud Audit Logging so that you can manage permissions on individual keys, and monitor how these are used. Use Cloud KMS to protect secrets and other sensitive data which you need to store in Google Cloud Platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kms-lead.png",
+			"humanURL": "https://cloud.google.com/kms/",
+			"baseURL": "://cloudkms.googleapis.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/google-cloud-key-management-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure DocumentDB",
+			"x-api-slug": "azure-documentdb",
+			"description": "Azure DocumentDB is a fully-managed NoSQL document database service that offers querying and transaction-processing over schema-free data, predictable and reliable performance, and rapid development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/documentdb/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CircleCI",
+			"x-api-slug": "circleci",
+			"description": "CircleCI???s continuous integration and delivery platform makes it easy for teams of all sizes to rapidly build and release quality software at scale.  Build for Linux, macOS, and Android, in the cloud or behind your firewall.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg",
+			"humanURL": "http://circleci.com",
+			"baseURL": "https://circleci.com//api/v1",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/circleci/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stride",
+			"x-api-slug": "stride",
+			"description": "Stride is a cloud-based team business communication and collaboration tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride software is available to download onto computers running Windows, Mac or Linux, as well as Android, iOS smartphones, and tablets",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg",
+			"humanURL": "https://www.stride.com/",
+			"baseURL": "https://api.atlassian.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stride/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EnvKey",
+			"x-api-slug": "envkey",
+			"description": "Protect API keys and credentials. Keep configuration in sync everywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28148-www-envkey-com.jpg",
+			"humanURL": "https://www.envkey.com",
+			"baseURL": "https:///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/envkey/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Actility",
+			"x-api-slug": "actility",
+			"description": "Actility is the leader in low power wide area (LoRaWAN and 3GPP) network connectivity management for the Internet of Things: the ThingPark platform",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg",
+			"humanURL": "https://www.actility.com",
+			"baseURL": "https://dx-api.thingpark.com//maker/v011/api",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/actility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rat Genome Database",
+			"x-api-slug": "rat-genome-database",
+			"description": "",
+			"image": "",
+			"humanURL": "http://rest.rgd.mcw.edu",
+			"baseURL": "https://rest.rgd.mcw.edu//rgdws",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/rat-genome-database/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apigee",
+			"x-api-slug": "apigee",
+			"description": "Apigee Edge is a platform for developing and managing API proxies. Think of a proxy as an abstraction layer that fronts for your backend service APIs and provides value-added features like security, rate limiting, quotas, analytics, and more. The primary consumers of Edge API proxies are app developers who want to use your backend services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apigee-edge.png",
+			"humanURL": "https://docs.apigee.com/api-platform/get-started/what-apigee-edge",
+			"baseURL": "https://api.enterprise.apigee.com//v1/",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/apigee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Backupify",
+			"x-api-slug": "backupify",
+			"description": "",
+			"image": "",
+			"humanURL": "http://backupify.com",
+			"baseURL": "https://api.backupify.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/backupify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/codefresh/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/gitlab/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "Keys",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/docsmore/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Keys",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "Urban Airship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/urban-airship/apis.yaml"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Context.IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/context-io/apis.yaml"
+		},
+		{
+			"name": "Heroku",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/heroku/apis.yaml"
+		},
+		{
+			"name": "LinkedIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/linkedin/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "MasterCard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/mastercard/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "GoToMeeting",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/gotomeeting/apis.yaml"
+		},
+		{
+			"name": "Weather Underground",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/weather-underground/apis.yaml"
+		},
+		{
+			"name": "DigitalOcean",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/digitalocean/apis.yaml"
+		},
+		{
+			"name": "Tyk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/tyk/apis.yaml"
+		},
+		{
+			"name": "Bitbucket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/bitbucket/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "Hewlett Packard Enterprise (HPE)",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/hewlett-packard-enterprise-hpe/apis.yaml"
+		},
+		{
+			"name": "VMWare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/vmware/apis.yaml"
+		},
+		{
+			"name": "LaunchDarkly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/launchdarkly/apis.yaml"
+		},
+		{
+			"name": "New Relic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/new-relic/apis.yaml"
+		},
+		{
+			"name": "AWS Lightsale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-lightsale/apis.yaml"
+		},
+		{
+			"name": "AWS ElastiCache",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-elasticache/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "AWS Identity and Access Management",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-identity-and-access-management/apis.yaml"
+		},
+		{
+			"name": "AWS Key Management Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-key-management-service/apis.yaml"
+		},
+		{
+			"name": "AWS API Gateway",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-api-gateway/apis.yaml"
+		},
+		{
+			"name": "AWS Internet of Things",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-internet-of-things/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "Google Apps Admin SDK",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/google-apps-admin-sdk/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Key Management Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/google-cloud-key-management-service/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Azure DocumentDB",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "CircleCI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/circleci/apis.yaml"
+		},
+		{
+			"name": "Stride",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/stride/apis.yaml"
+		},
+		{
+			"name": "EnvKey",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/envkey/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Actility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/actility/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Rat Genome Database",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/rat-genome-database/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Apigee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/apigee/apis.yaml"
+		},
+		{
+			"name": "Backupify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/backupify/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/codefresh/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/gitlab/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/logicbroker/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/docsmore/apis.yaml"
+		}
+	]
+}

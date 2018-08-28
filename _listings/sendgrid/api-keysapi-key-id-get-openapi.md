@@ -116,6 +116,65 @@ paths:
       - Keys
       - Api
       - Key
+    patch:
+      summary: Patch Api Keys Api Key
+      description: |-
+        **This endpoint allows you to update the name of an existing API Key.**
+
+        A JSON request body with a "name" property is required.
+
+        The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+        ## URI Parameters
+
+        | URI Parameter   | Type  | Required?  | Description  |
+        |---|---|---|---|
+        |api_key_id |string | required | The ID of the API Key you are updating.|
+      operationId: api_keys.api_key_id.patch
+      x-api-path-slug: api-keysapi-key-id-patch
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Api
+      - Keys
+      - Api
+      - Key
+    put:
+      summary: Put Api Keys Api Key
+      description: |-
+        **This endpoint allows you to update the name and scopes of a given API key.**
+
+        A JSON request body with a "name" property is required.
+        Most provide the list of all the scopes an api key should have.
+
+        The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+      operationId: api_keys.api_key_id.put
+      x-api-path-slug: api-keysapi-key-id-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Api
+      - Keys
+      - Api
+      - Key
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

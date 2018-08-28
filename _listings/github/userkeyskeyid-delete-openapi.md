@@ -203,6 +203,53 @@ paths:
       - User
       - Keys
       - Key
+    get:
+      summary: Get User Keys Key
+      description: Get a single public key.
+      operationId: get-a-single-public-key
+      x-api-path-slug: userkeyskeyid-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: keyId
+        description: ID of key
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - Keys
+      - Key
+  /users/{username}/keys:
+    get:
+      summary: Get Users Username Keys
+      description: |-
+        List public keys for a user.
+        Lists the verified public keys for a user. This is accessible by anyone.
+      operationId: list-public-keys-for-a-userlists-the-verified-public-keys-for-a-user-this-is-accessible-by-anyone
+      x-api-path-slug: usersusernamekeys-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: username
+        description: Name of user
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Username
+      - Keys
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

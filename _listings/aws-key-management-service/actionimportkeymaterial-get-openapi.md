@@ -294,6 +294,117 @@ paths:
           description: OK
       tags:
       - Keys
+  /?Action=ListKeys:
+    get:
+      summary: List Keys
+      description: Lists the customer master keys.
+      operationId: listKeys
+      x-api-path-slug: actionlistkeys-get
+      parameters:
+      - in: query
+        name: Limit
+        description: When paginating results, specify the maximum number of items
+          to return in the response
+        type: string
+      - in: query
+        name: Marker
+        description: Use this parameter only when paginating results and only in a
+          subsequent request after      you receive a response with truncated results
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Keys
+  /?Action=PutKeyPolicy:
+    get:
+      summary: Put Key Policy
+      description: Attaches a key policy to the specified customer master key (CMK).
+      operationId: putKeyPolicy
+      x-api-path-slug: actionputkeypolicy-get
+      parameters:
+      - in: query
+        name: BypassPolicyLockoutSafetyCheck
+        description: A flag to indicate whether to bypass the key policy lockout safety
+          check
+        type: string
+      - in: query
+        name: KeyId
+        description: A unique identifier for the CMK
+        type: string
+      - in: query
+        name: Policy
+        description: The key policy to attach to the CMK
+        type: string
+      - in: query
+        name: PolicyName
+        description: The name of the key policy
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Keys
+  /?Action=ScheduleKeyDeletion:
+    get:
+      summary: Schedule Key Deletion
+      description: Schedules the deletion of a customer master key (CMK).
+      operationId: scheduleKeyDeletion
+      x-api-path-slug: actionschedulekeydeletion-get
+      parameters:
+      - in: query
+        name: KeyId
+        description: The unique identifier for the customer master key (CMK) to delete
+        type: string
+      - in: query
+        name: PendingWindowInDays
+        description: The waiting period, specified in number of days
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Keys
+  /?Action=UpdateKeyDescription:
+    get:
+      summary: Update Key Description
+      description: Updates the description of a customer master key (CMK).
+      operationId: updateKeyDescription
+      x-api-path-slug: actionupdatekeydescription-get
+      parameters:
+      - in: query
+        name: Description
+        description: New description for the CMK
+        type: string
+      - in: query
+        name: KeyId
+        description: A unique identifier for the CMK
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Keys
+  /?Action=GetKeyPolicy:
+    get:
+      summary: Get Key Policy
+      description: Retrieves a policy attached to the specified key.
+      operationId: getKeyPolicy
+      x-api-path-slug: actiongetkeypolicy-get
+      parameters:
+      - in: query
+        name: KeyId
+        description: A unique identifier for the customer master key
+        type: string
+      - in: query
+        name: PolicyName
+        description: String that contains the name of the policy
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Key Policies
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -7,28 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Keys
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Api Keys
-  x-api-slug: sendgrid
+- name: SendGrid - Get Api Keys
+  x-api-slug: api-keys-get
   description: |-
     **This endpoint allows you to retrieve all API Keys that belong to the authenticated user.**
 
     The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//api_keys
-  tags: Email,Api, Keys
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-openapi.md
-- name: SendGrid Add Api Keys
-  x-api-slug: sendgrid
+- name: SendGrid - Add Api Keys
+  x-api-slug: api-keys-post
   description: |-
     **This endpoint allows you to create a new random API Key for the user.**
 
@@ -41,13 +42,14 @@ apis:
     See the [API Key Permissions List](https://sendgrid.com/docs/API_Reference/Web_API_v3/API_Keys/api_key_permissions_list.html) for a list of all available scopes.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//api_keys
-  tags: Email,Api, Keys
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-post-openapi.md
-- name: SendGrid Delete Api Keys Api Key
-  x-api-slug: sendgrid
+- name: SendGrid - Delete Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-delete
   description: |-
     **This endpoint allows you to revoke an existing API Key**
 
@@ -62,30 +64,32 @@ apis:
     |api_key_id |string | required | The ID of the API Key you are deleting.|
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//api_keys/{api_key_id}
-  tags: Email,Api, Keys, Api, Key
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-delete-openapi.md
-- name: SendGrid Get Api Keys Api Key
-  x-api-slug: sendgrid
+- name: SendGrid - Get Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-get
   description: |-
     **This endpoint allows you to retrieve a single api key.**
 
     If the API Key ID does not exist an HTTP 404 will be returned.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//api_keys/{api_key_id}
-  tags: Email,Api, Keys, Api, Key
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-get-openapi.md
-- name: SendGrid Patch Api Keys Api Key
-  x-api-slug: sendgrid
+- name: SendGrid - Patch Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-patch
   description: |-
     **This endpoint allows you to update the name of an existing API Key.**
 
@@ -100,13 +104,14 @@ apis:
     |api_key_id |string | required | The ID of the API Key you are updating.|
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//api_keys/{api_key_id}
-  tags: Email,Api, Keys, Api, Key
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-patch-openapi.md
-- name: SendGrid Put Api Keys Api Key
-  x-api-slug: sendgrid
+- name: SendGrid - Put Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-put
   description: |-
     **This endpoint allows you to update the name and scopes of a given API key.**
 
@@ -116,27 +121,364 @@ apis:
     The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//api_keys/{api_key_id}
-  tags: Email,Api, Keys, Api, Key
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-put-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
+- name: SendGrid - Get Api Keys
+  x-api-slug: api-keys-get
+  description: |-
+    **This endpoint allows you to retrieve all API Keys that belong to the authenticated user.**
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
   baseURL: https://api.sendgrid.com//v3
-  tags: Keys
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-openapi.md
+- name: SendGrid - Add Api Keys
+  x-api-slug: api-keys-post
+  description: |-
+    **This endpoint allows you to create a new random API Key for the user.**
+
+    A JSON request body containing a "name" property is required. If number of maximum keys is reached, HTTP 403 will be returned.
+
+    There is a limit of 100 API Keys on your account.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    See the [API Key Permissions List](https://sendgrid.com/docs/API_Reference/Web_API_v3/API_Keys/api_key_permissions_list.html) for a list of all available scopes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-post-openapi.md
+- name: SendGrid - Delete Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-delete
+  description: |-
+    **This endpoint allows you to revoke an existing API Key**
+
+    Authentications using this API Key will fail after this request is made, with some small propogation delay.If the API Key ID does not exist an HTTP 404 will be returned.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are deleting.|
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-delete-openapi.md
+- name: SendGrid - Get Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single api key.**
+
+    If the API Key ID does not exist an HTTP 404 will be returned.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-get-openapi.md
+- name: SendGrid - Patch Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-patch
+  description: |-
+    **This endpoint allows you to update the name of an existing API Key.**
+
+    A JSON request body with a "name" property is required.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are updating.|
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-patch-openapi.md
+- name: SendGrid - Put Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-put
+  description: |-
+    **This endpoint allows you to update the name and scopes of a given API key.**
+
+    A JSON request body with a "name" property is required.
+    Most provide the list of all the scopes an api key should have.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-put-openapi.md
+- name: SendGrid - Delete Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-delete
+  description: |-
+    **This endpoint allows you to revoke an existing API Key**
+
+    Authentications using this API Key will fail after this request is made, with some small propogation delay.If the API Key ID does not exist an HTTP 404 will be returned.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are deleting.|
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-delete-openapi.md
+- name: SendGrid - Get Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single api key.**
+
+    If the API Key ID does not exist an HTTP 404 will be returned.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-get-openapi.md
+- name: SendGrid - Patch Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-patch
+  description: |-
+    **This endpoint allows you to update the name of an existing API Key.**
+
+    A JSON request body with a "name" property is required.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are updating.|
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-patch-openapi.md
+- name: SendGrid - Put Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-put
+  description: |-
+    **This endpoint allows you to update the name and scopes of a given API key.**
+
+    A JSON request body with a "name" property is required.
+    Most provide the list of all the scopes an api key should have.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-put-openapi.md
+- name: SendGrid - Get Api Keys
+  x-api-slug: api-keys-get
+  description: |-
+    **This endpoint allows you to retrieve all API Keys that belong to the authenticated user.**
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-openapi.md
+- name: SendGrid - Get Api Keys
+  x-api-slug: api-keys-get
+  description: |-
+    **This endpoint allows you to retrieve all API Keys that belong to the authenticated user.**
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-get-openapi.md
+- name: SendGrid - Add Api Keys
+  x-api-slug: api-keys-post
+  description: |-
+    **This endpoint allows you to create a new random API Key for the user.**
+
+    A JSON request body containing a "name" property is required. If number of maximum keys is reached, HTTP 403 will be returned.
+
+    There is a limit of 100 API Keys on your account.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    See the [API Key Permissions List](https://sendgrid.com/docs/API_Reference/Web_API_v3/API_Keys/api_key_permissions_list.html) for a list of all available scopes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-post-openapi.md
+- name: SendGrid - Add Api Keys
+  x-api-slug: api-keys-post
+  description: |-
+    **This endpoint allows you to create a new random API Key for the user.**
+
+    A JSON request body containing a "name" property is required. If number of maximum keys is reached, HTTP 403 will be returned.
+
+    There is a limit of 100 API Keys on your account.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    See the [API Key Permissions List](https://sendgrid.com/docs/API_Reference/Web_API_v3/API_Keys/api_key_permissions_list.html) for a list of all available scopes.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keys-post-openapi.md
+- name: SendGrid - Put Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-put
+  description: |-
+    **This endpoint allows you to update the name and scopes of a given API key.**
+
+    A JSON request body with a "name" property is required.
+    Most provide the list of all the scopes an api key should have.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-put-openapi.md
+- name: SendGrid - Patch Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-patch
+  description: |-
+    **This endpoint allows you to update the name of an existing API Key.**
+
+    A JSON request body with a "name" property is required.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are updating.|
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-patch-openapi.md
+- name: SendGrid - Get Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-get
+  description: |-
+    **This endpoint allows you to retrieve a single api key.**
+
+    If the API Key ID does not exist an HTTP 404 will be returned.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-get-openapi.md
+- name: SendGrid - Delete Api Keys Api Key
+  x-api-slug: api-keysapi-key-id-delete
+  description: |-
+    **This endpoint allows you to revoke an existing API Key**
+
+    Authentications using this API Key will fail after this request is made, with some small propogation delay.If the API Key ID does not exist an HTTP 404 will be returned.
+
+    The API Keys feature allows customers to be able to generate an API Key credential which can be used for authentication with the SendGrid v3 Web API or the [Mail API Endpoint](https://sendgrid.com/docs/API_Reference/Web_API/mail.html).
+
+    ## URI Parameters
+
+    | URI Parameter   | Type  | Required?  | Description  |
+    |---|---|---|---|
+    |api_key_id |string | required | The ID of the API Key you are deleting.|
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/sendgrid/api-keysapi-key-id-delete-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

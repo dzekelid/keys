@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS API Gateway
 x-complete: 1
@@ -215,4 +214,32 @@ paths:
       tags:
       - Keys
       - Imports
----
+  /apikeys/a2TprUZuzf2EKbbmMUotDaHYGg8kgxFypcarGved:
+    delete:
+      summary: Deletes An Api Key Resource
+      description: Deletes an ApiKey resource.
+      operationId: apikeyDelete
+      x-api-path-slug: apikeysa2tpruzuzf2ekbbmmuotdahygg8kgxfypcargved-delete
+      parameters:
+      - in: header
+        name: Authorization
+        type: string
+      - in: header
+        name: Content-Type
+        type: string
+      - in: header
+        name: Host
+        type: string
+      - in: query
+        name: REST API Reference
+        description: Link Relations
+        type: string
+      - in: header
+        name: X-Amz-Date
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Key
+      - Resource

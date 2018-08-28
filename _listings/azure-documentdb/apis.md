@@ -8,49 +8,67 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Keys
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure DocumentDB API Database Accounts List Keys
-  x-api-slug: azure-documentdb-api
+- name: DocumentDB - Database Accounts List Keys
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistkeys-post
   description: Lists the access keys for the specified Azure DocumentDB database account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
   humanURL: https://azure.microsoft.com/en-us/services/documentdb/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/listKeys
-  tags: Database, Accounts, List, Keys
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Documents, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistkeys-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamelistkeys-post-openapi.md
-- name: Azure DocumentDB API Database Accounts List Read Only Keys
-  x-api-slug: azure-documentdb-api
+- name: DocumentDB - Database Accounts List Read Only Keys
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamereadonlykeys-get
   description: Lists the read-only access keys for the specified Azure DocumentDB
     database account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
   humanURL: https://azure.microsoft.com/en-us/services/documentdb/
-  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.DocumentDB/databaseAccounts/{accountName}/readonlykeys
-  tags: Database, Accounts, List, Read, Only, Keys
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Documents, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamereadonlykeys-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnamereadonlykeys-get-openapi.md
-- name: Azure DocumentDB API
-  x-api-slug: azure-documentdb-api
-  description: Azure DocumentDB is a fully-managed NoSQL document database service
-    that offers querying and transaction-processing over schema-free data, predictable
-    and reliable performance, and rapid development.
+- name: DocumentDB - Database Accounts Regenerate Key
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post
+  description: Regenerates an access key for the specified Azure DocumentDB database
+    account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
   humanURL: https://azure.microsoft.com/en-us/services/documentdb/
   baseURL: ://management.azure.com//
-  tags: Keys
+  tags: Microsoft, Documents, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post-openapi.md
+- name: DocumentDB - Database Accounts Regenerate Key
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post
+  description: Regenerates an access key for the specified Azure DocumentDB database
+    account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-document-db-03-replicate.png
+  humanURL: https://azure.microsoft.com/en-us/services/documentdb/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Documents, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/keys/master/_listings/azure-documentdb/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-documentdbdatabaseaccountsaccountnameregeneratekey-post-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://azure.dns.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.documentdb.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/documentdb/
 - type: x-pricing

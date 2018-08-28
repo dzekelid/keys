@@ -13,6 +13,102 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=GetContextKeysForCustomPolicy:
+    get:
+      summary: Get Context Keys For Custom Policy
+      description: Gets a list of all of the context keys referenced in the input
+        policies.
+      operationId: getContextKeysForCustomPolicy
+      x-api-path-slug: actiongetcontextkeysforcustompolicy-get
+      parameters:
+      - in: query
+        name: PolicyInputList.member.N
+        description: A list of policies for which you want the list of context keys
+          referenced in those      policies
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Context Keys For Custom Policies
+  /?Action=GetContextKeysForPrincipalPolicy:
+    get:
+      summary: Get Context Keys For Principal Policy
+      description: |-
+        Gets a list of all of the context keys referenced in all of the IAM policies attached
+              to the specified IAM entity.
+      operationId: getContextKeysForPrincipalPolicy
+      x-api-path-slug: actiongetcontextkeysforprincipalpolicy-get
+      parameters:
+      - in: query
+        name: PolicyInputList.member.N
+        description: An optional list of additional policies for which you want the
+          list of context keys      that are referenced
+        type: string
+      - in: query
+        name: PolicySourceArn
+        description: The ARN of a user, group, or role whose policies contain the
+          context keys that you want      listed
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Context Keys For Principal Policies
+  /?Action=ListAccessKeys:
+    get:
+      summary: List Access Keys
+      description: Returns information about the access key IDs associated with the
+        specified IAM user.
+      operationId: listAccessKeys
+      x-api-path-slug: actionlistaccesskeys-get
+      parameters:
+      - in: query
+        name: Marker
+        description: Use this parameter only when paginating results and only after     you
+          receive a response indicating that the results are truncated
+        type: string
+      - in: query
+        name: MaxItems
+        description: (Optional) Use this only when paginating results to indicate
+          the     maximum number of items you want in the response
+        type: string
+      - in: query
+        name: UserName
+        description: The name of the user
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Access Keys
+  /?Action=ListSSHPublicKeys:
+    get:
+      summary: List S S H Public Keys
+      description: Returns information about the SSH public keys associated with the
+        specified IAM user.
+      operationId: listSSHPublicKeys
+      x-api-path-slug: actionlistsshpublickeys-get
+      parameters:
+      - in: query
+        name: Marker
+        description: Use this parameter only when paginating results and only after     you
+          receive a response indicating that the results are truncated
+        type: string
+      - in: query
+        name: MaxItems
+        description: (Optional) Use this only when paginating results to indicate
+          the     maximum number of items you want in the response
+        type: string
+      - in: query
+        name: UserName
+        description: The name of the IAM user to list SSH public keys for
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - SSH Public Keys
   /?Action=CreateAccessKey:
     get:
       summary: Create Access Key
@@ -69,24 +165,51 @@ paths:
           description: OK
       tags:
       - Access Keys
-  /?Action=GetContextKeysForCustomPolicy:
+  /?Action=UpdateAccessKey:
     get:
-      summary: Get Context Keys For Custom Policy
-      description: Gets a list of all of the context keys referenced in the input
-        policies.
-      operationId: getContextKeysForCustomPolicy
-      x-api-path-slug: actiongetcontextkeysforcustompolicy-get
+      summary: Update Access Key
+      description: Changes the status of the specified access key from Active to Inactive,
+        or vice versa.
+      operationId: updateAccessKey
+      x-api-path-slug: actionupdateaccesskey-get
       parameters:
       - in: query
-        name: PolicyInputList.member.N
-        description: A list of policies for which you want the list of context keys
-          referenced in those      policies
+        name: AccessKeyId
+        description: The access key ID of the secret access key you want to update
+        type: string
+      - in: query
+        name: Status
+        description: The status you want to assign to the secret access key
+        type: string
+      - in: query
+        name: UserName
+        description: The name of the user whose key you want to update
         type: string
       responses:
         200:
           description: OK
       tags:
-      - Context Keys For Custom Policies
+      - Access Keys
+  /?Action=DeleteSSHPublicKey:
+    get:
+      summary: Delete S S H Public Key
+      description: Deletes the specified SSH public key.
+      operationId: deleteSSHPublicKey
+      x-api-path-slug: actiondeletesshpublickey-get
+      parameters:
+      - in: query
+        name: SSHPublicKeyId
+        description: The unique identifier for the SSH public key
+        type: string
+      - in: query
+        name: UserName
+        description: The name of the IAM user associated with the SSH public key
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - SSH Public Key
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
